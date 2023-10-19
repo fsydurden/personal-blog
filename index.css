@@ -6,24 +6,21 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(247, 249, 250);
 }
-header{
-    background-color: rgb(0, 7, 10);
-    color: #05f715;
-    text-align: center;
-    padding: 1rem 0;
-}
-header h1{
-    font-size: 2rem;
-}
 nav ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0e0c0c;
 }
 nav li{
-    display: inline;
-    margin: 0 1rem;
+    float: left;
 }
 nav a{
-    color: #fff;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
     text-decoration: none;
 }
 main{
@@ -33,18 +30,10 @@ main{
     background-color: #fff;
     box-shadow: 0 0 10px rgb(10, 249, 2);  /*Box shadow*/
 }
-.blog-post{
-    padding: 1rem;
-    border-bottom: 1px solid #ddd;
-}
-.blog-post h2{
-    font-size: 0.5rem;
-    margin-bottom: 0.5 rem;
-}
-.blog-post p{
-    margin: 0.5rem 0;
-}
-footer{
+p.copy{
     text-align: center;
-    
+}
+h1.hed{
+    text-align: right;
+    color: green;
 }
