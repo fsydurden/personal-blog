@@ -41,3 +41,12 @@ h1.hed{
 .title:hover{
     background-color:blue;
 }
+.blog{
+    padding: 30px;
+    border: 1px solid black;
+}
+header{
+    text-align: center;
+    background-color: #0e0c0c;
+    color: aqua;
+}
